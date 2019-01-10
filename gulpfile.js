@@ -15,7 +15,7 @@ function style() {
             .on("error", sass.logError)
  
             // What is the destination for the compiled file?
-            .pipe(gulp.dest("."))
+            .pipe(gulp.dest("./css"))
     );
 }
  
