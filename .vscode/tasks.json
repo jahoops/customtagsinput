@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "SCSS to CSS with gulp",
+            "command": "gulp",
+            "args": ["default"],
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceRoot}/assets"
+            }
+        }
+    ]
+}
